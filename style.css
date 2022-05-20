@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+section {
+  position: relative;
+  background-color: black;
+}
+.logo {
+  position: absolute;
+  width: 200px;
+  fill: rgb(0, 81, 255);
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 150px;
+  }
+}
